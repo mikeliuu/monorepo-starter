@@ -11,6 +11,8 @@ export class ApiError extends Error {
   }
 }
 
+// Server-rendered requests (Server Components, prefetching) hit the internal
+// API_BASE_URL; browser requests use the public NEXT_PUBLIC_API_BASE_URL.
 const baseURL =
   typeof window !== 'undefined' ? process.env.NEXT_PUBLIC_API_BASE_URL : process.env.API_BASE_URL;
 

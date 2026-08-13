@@ -66,7 +66,6 @@ bun run type-check       # tsc --noEmit across all workspaces
 
 ## Environment variables
 
-- `NEXT_PUBLIC_API_BASE_URL` — REST API base URL (client-side, both apps)
 - `API_BASE_URL` — REST API base URL (server-side, both apps)
 - `NEXT_PUBLIC_SITE_URL` — website canonical URL
 - `NEXT_PUBLIC_BUSINESS_URL` — business portal canonical URL
